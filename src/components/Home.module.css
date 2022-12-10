@@ -1,0 +1,255 @@
+
+body{
+    color: #3E3F66;
+}
+
+.navbar{
+    display:flex;
+    width: 90%;
+    justify-content: space-around;
+    margin: auto;
+    /* margin-top: 30px; */
+    position: fixed;
+    top: 0%;
+    padding: 20px;
+    height: 60px;
+    background-color: white;
+    
+   
+}
+
+
+.getStarted{
+    height: 45px;
+    width: 182px;
+    background-color: #6A49F2;
+    margin-top: -10px;
+    border: none;
+    border-radius: 30px;
+}
+
+.firstBox{
+    display: flex;
+    justify-content: space-around;
+
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid red;
+}
+.firstBox>div{
+    width: 555px;
+    text-align: left;
+    border: 1px solid red;
+    justify-content: center;
+    height: 700px;
+}
+.head{
+    font-size: 55px;
+    font-weight: 900;
+    margin-top: 160px;
+    color: #6A49F2;
+}
+span{
+    color: #32236F;
+}
+
+
+.btnDiv>button{
+  height: 63px;
+  width: 204px;
+  border-radius: 10px; ;
+ border-color: #6A49F2;
+margin-right: 30px;
+}
+
+.imgDiv:first-child>img{
+    position: relative;
+    left: -16%;
+    overflow: visible;
+}
+
+.imgDiv{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    line-height: 5px;
+}
+.frameDiv{
+    
+}
+.mobileFrame{
+    height: 640px;
+    width: 325px;
+    margin-left: 120px;
+    position: relative;
+    top: -1315px;
+    box-sizing: border-box;
+    overflow: hidden;
+   left: -5px; 
+   
+   
+}
+.a{
+    background-image: url(../../public/1.png);
+    height: 450px;
+    width: 1000px;
+}
+.b{
+    background-image: url(../../public/2.png);
+    height: 450px;
+    width: 1000px;
+}
+.c{
+    background-image: url(../../public/3.png);
+    height: 450px;
+    width: 1000px;
+}
+.screen{
+    background-image: url(../../public/screen.png);
+    height: 642px;
+    width: 310px;
+    overflow: hidden;
+}
+.circle{
+    width: 500px;
+    height: 500px;
+    background-color: #6A49F2;
+    border-radius: 100%;
+    margin: auto;
+    margin-top: 180px;
+    position: relative;
+    top:-100px
+}
+
+.secCourosel{
+    margin-top: 100px;
+    margin-bottom: 100px;
+   display:flex;
+   justify-content: space-evenly;
+   border: 1px solid red;
+   /* width: 200px; */
+}
+
+.thirdBox{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
+    width: 70%;
+    margin: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.thirdBox>div{
+    border: 1px solid red;
+    width: 250px;
+    text-align: right;
+    margin-top: 180px;
+}
+
+.features_frame{
+    position: relative;
+    top: -150px;
+}
+
+.fourthBox{
+    margin: auto;
+    display: flex;
+    border: 1px solid red;
+    width: 1110px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   
+   /* height: 642px; */
+}
+.fourthBox >div{
+    margin-top: 100px;
+    width: 555px;
+    border: 1px solid red;
+    text-align: left;
+    height: 742px;
+}
+
+.grid{
+    display: grid;
+    /* border: 1px solid red; */
+    grid-template-columns: repeat(2,250px);
+    width: 90%;
+    height: 250px;
+    gap: 50px;
+    margin: auto;
+}
+
+.grid>div{
+    background-color: whitesmoke;
+    border: 1px solid red;
+    height: 100px;
+    
+}
+
+.grid>button{
+   border: none;
+   background-color: white;
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.fifthBox{
+    margin: auto;
+    display: flex;
+    border: 1px solid red;
+    width: 1110px;
+}
+
+.fifthBox >div{
+    margin-top: 100px;
+    width: 555px;
+    border: 1px solid red;
+    text-align: left;
+    /* height: 642px; */
+}
+
+.sixthBox{
+    margin: auto;
+    display: flex;
+    border: 1px solid red;
+    width: 1110px;
+}
+
+.sixthBox>div{
+    margin-top: 100px;
+    /* width: 555px; */
+    /* border: 1px solid red; */
+    text-align: left;
+    height: 642px;
+    display: flex;
+    flex-direction: column;
+}  
+
+
+
+.innerDiv{
+    width: 360px;
+    height: 300px;
+    margin: auto;
+    text-align: right;
+    border-radius: 20px;
+}
+
+.line{
+    width: 5px;
+    background-color: #DFDAF3;
+ }
+ 
+ .line>img{
+    width: 110px;
+    height: 110px;
+    position: relative;
+    right: 50px;
+ }
+
+.bullet{
+    width: 30px;
+    height: 22px;
+    border-radius: 22px;
+    background-color: #6A49F2;
+    margin-top: 30px;
+}
