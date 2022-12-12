@@ -3,13 +3,15 @@ import s from "./Home.module.css"
 import { Carousel } from 'antd';
 
 const contentStyle = {
-    height: '642px',
-    width:"290px",
-    position:"relative",
-    top:"-680px",
-    rigth:"-20px",
-    margin:"auto",
-    borderRadius:"50px"
+   
+  // height: "642px",
+  // width:"290px",
+  // position:"relative",
+  // top:"-680px",
+  // margin:"auto",
+  // bordeRadius:"50px"
+  
+  
    
   };
 
@@ -39,12 +41,12 @@ const Home = () => {
         </div>
         <div className={s.frameDiv}>
             <div className={s.circle} ></div>
-            <Carousel style={contentStyle} autoplay>
+            <Carousel className={s.Courosel} style={contentStyle} autoplay>
              <div className={s.screen}>
-               <h3 >1</h3>
+              
              </div>
              <div  className={s.screen} >
-               <h3 >2</h3>
+               
              </div>
             </Carousel>
            
@@ -57,7 +59,7 @@ const Home = () => {
      </div>         
      <div className={s.secBox} >
          <h1 style={{fontSize:"45px" ,color:"#6A49F2",fontWeight:"750"}}  ><span>Trusted by</span> 150+ <span>companies</span></h1>
-         <div style={{margin:"auto",width:"500px"}} >
+         <div className={s.pDiv}  style={{margin:"auto",width:"60%"}} >
            <p>Lorem Ipsum is simply dummy text of the printing and typese ttin indus orem Ipsum has beenthe standard dummy.</p>
          </div>
         <div className={s.secCourosel} >
@@ -84,7 +86,7 @@ const Home = () => {
 
      <div>
      <h1 style={{fontSize:"45px" ,color:"#6A49F2",fontWeight:"750"}}  >Features <span>that makes app different!</span></h1>
-     <div style={{margin:"auto",width:"500px"}} >
+     <div style={{margin:"auto",width:"60%"}} >
            <p>Lorem Ipsum is simply dummy text of the printing and typese ttin indus orem Ipsum has beenthe standard dummy.</p>
         </div>
      </div>
@@ -103,13 +105,13 @@ const Home = () => {
         </div>
       </div>
       <div style={{width:"unset"}}><img className={s.features_frame}  src='./features_frame.png' /></div>
-      <div>
-      <div style={{textAlign:"left"}} >
+      <div className={s.tLeft}   >
+      <div   >
             <img   src="./shield_icon.png" />
             <h2>Secure data</h2>
             <p>Lorem Ipsum is simply dummy text of the printing and type setting indus ideas.</p>
         </div>
-        <div style={{textAlign:"left"}} >
+        <div >
         <img   src="./shield_icon.png" />
             <h2>Secure data</h2>
             <p>Lorem Ipsum is simply dummy text of the printing and type setting indus ideas.</p>
@@ -120,12 +122,12 @@ const Home = () => {
     <div className={s.fourthBox} >
 
         <div>
-            <img src='./about-frame.png'  />
+            <img className={s.aFrame}  src='./about-frame.png'  />
             <img style={{position:"relative",top:"-450px" ,right:"-150px"}}  src='./about-screen.png'  />
         </div>
         <div>
            <h1 style={{fontSize:"45px" ,color:"#6A49F2",fontWeight:"750"}}  ><span>Some awesome words </span>about app.</h1>
-           <div style={{margin:"auto",width:"500px"}} >
+           <div style={{margin:"auto",width:"60%"}} >
              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys standard dummy text ever since the when an unknown printer took a galley of type and. Lorem ipsum dolor sit amet..</p>
            </div>
            <div className={s.grid} >
@@ -144,7 +146,7 @@ const Home = () => {
     <div className={s.fifthBox} >
         <div>
              <h1 style={{fontSize:"45px" ,color:"#6A49F2",fontWeight:"750"}}  ><span>Beautiful design with</span> modern UI</h1>
-             <div style={{margin:"auto",width:"500px"}} >
+             <div style={{margin:"auto",width:"60%"}} >
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys standard dummy text ever since the when an unknown printer took a galley of type and.</p>
              </div>
             <div style={{display:"flex" ,justifyContent:"space-between",gap:"30px",width:"555px"}}  >
@@ -178,7 +180,7 @@ const Home = () => {
 
     <div>
             <h1 style={{fontSize:"45px" ,color:"#6A49F2",fontWeight:"750"}}  >How it works<span>- 3 easy steps</span> </h1>
-             <div style={{margin:"auto",width:"500px"}} >
+             <div style={{margin:"auto",width:"60%"}} >
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been .</p>
              </div>
     </div>
@@ -217,12 +219,12 @@ Sign up free for App account. One account for all devices.</p>
 
     <div>
 
-        <iframe style={{height:"400px" ,width:"1170px" ,marginTop:"100px" }}  src='http://kalanidhithemes.com/live-preview/landing-page/apper/all-demo/01-app-landing-page-defoult/images/yt_thumb.png'  />
+        <iframe className={s.iframe}  src='http://kalanidhithemes.com/live-preview/landing-page/apper/all-demo/01-app-landing-page-defoult/images/yt_thumb.png'  />
     </div>
 
     <div>
     <h1 style={{fontSize:"45px" ,color:"#6A49F2",fontWeight:"750"}}  > <span>What our </span> customer say </h1>
-             <div style={{margin:"auto",width:"500px"}} >
+             <div style={{margin:"auto",width:"60%"}} >
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been .</p>
              </div>
     </div>
@@ -233,9 +235,9 @@ Sign up free for App account. One account for all devices.</p>
         {/* <img src="" alt="" /><img src="" alt="" /><img src="" alt="" /> */}
        </div>
        <div>
-       <Carousel style={{height:"400px",width:"600px",margin:"auto",marginTop:"50px"}}  autoplay>
+       <Carousel className={s.lastC}    autoplay>
        <div className={s.a} >
-        
+             
        </div>
        <div className={s.b} >
       
@@ -253,7 +255,7 @@ Sign up free for App account. One account for all devices.</p>
      </div>
      <div>
      <h1 style={{fontSize:"45px" ,color:"#6A49F2",fontWeight:"750",marginTop:"200px"}}  ><span>Best & simple </span> pricing</h1>
-             <div style={{margin:"auto",width:"500px"}} >
+             <div style={{margin:"auto",width:"60%"}} >
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been .</p>
              </div>
      </div>

@@ -14,10 +14,20 @@ body{
     padding: 20px;
     height: 60px;
     background-color: white;
-    
+  
    
 }
 
+
+.Courosel{
+    height: 642px;
+    width:290px;
+    position:relative;
+    top:-680px;
+    margin:auto;
+    border-radius:50px
+    
+}
 
 .getStarted{
     height: 45px;
@@ -36,6 +46,7 @@ body{
     margin: auto;
     margin-top: 100px;
     border: 1px solid red;
+   
 }
 .firstBox>div{
     width: 555px;
@@ -43,6 +54,7 @@ body{
     border: 1px solid red;
     justify-content: center;
     height: 700px;
+  
 }
 .head{
     font-size: 55px;
@@ -75,9 +87,7 @@ margin-right: 30px;
     gap: 20px;
     line-height: 5px;
 }
-.frameDiv{
-    
-}
+
 .mobileFrame{
     height: 640px;
     width: 325px;
@@ -119,7 +129,8 @@ margin-right: 30px;
     margin: auto;
     margin-top: 180px;
     position: relative;
-    top:-100px
+    top:-100px;
+   
 }
 
 .secCourosel{
@@ -253,3 +264,137 @@ margin-right: 30px;
     background-color: #6A49F2;
     margin-top: 30px;
 }
+.thirdBox{
+    text-align:left; 
+}
+
+.lastC{
+    height:400px;
+    width:600px;
+    margin:auto;
+    margin-top:50px
+}
+
+.iframe{
+    height:400px ;
+    width:1170px;
+    marginTop:100px; 
+}
+
+@media screen and (max-width: 320px) {
+    .firstBox{
+        flex-direction: column;
+    }
+    .firstBox>div{
+        height: fit-content;
+        max-height: 647px;
+    }
+    .mobileFrame{
+        position: relative;
+        top: -600px;
+        margin-left: 0px;
+        width: 300px;
+        overflow: visible;
+       
+    }
+    .btnDiv>button{
+        width: 120px;
+        gap: 10px;
+    }
+    .btnDiv>button>img{
+        height: 30px;
+        width: 80px;
+    }
+    .head{
+        margin-top: 100px;
+        font-size: 30px;
+        width: 300px;
+    }
+    .Courosel{
+        width: 290px;
+        overflow: hidden;
+        top: 00px;
+        left: -130px;
+    }
+    .screen{
+        width: 290px;
+        box-sizing: border-box;
+        height: 647px;
+        position: relative;
+        top: 80px;
+        left: -15px;
+        margin-left: 0px;
+        overflow: hidden;
+        
+    }
+    .pDiv{
+        width: 280px;
+    }
+    .circle{
+        display: none;
+    }
+    .secCourosel{
+        flex-direction: column;
+    }
+    .features_frame{
+        position: relative;
+        left: -30px;
+        width: 280px;
+
+    }
+    .thirdBox{
+        flex-direction: column;
+        text-align: center;
+    }
+    .thirdBox>div{
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+    .tLeft{
+        text-align: center;
+    }
+
+    .fourthBox{
+        flex-direction: column;
+    }
+    .fourthBox>div{
+        width: 280px;
+      
+    }
+    h1{
+        font-size: 30px;
+    }
+    .getStarted{
+       display: none;
+    }
+    .sixthBox{
+        flex-direction: column;
+        display: none;
+    }
+    .sixthBox>div{
+        width: 290px;
+
+    }
+
+    .line{
+        display: none;
+    }
+    .line>img{
+        display: none;
+    }
+    .lastC{
+        height: 200px;
+        width: 280px;
+    }
+     .lastC>div{
+        height: 200px;
+        width: 280px;
+        background-image: none;
+     }
+   .iframe{
+    height: 200px;
+    width: 280px;
+   }
+  }
+  
